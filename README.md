@@ -88,7 +88,7 @@ This initial analysis ensures a comprehensive understanding of the dataset and p
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/stirelli/bank-marketing-model-comparison.git
+   git clone https://github.com/stirelli/federated-churn-ai.git
 
 2. Install the necessary packages:
 
