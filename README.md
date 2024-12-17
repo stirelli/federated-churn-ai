@@ -4,6 +4,8 @@ This project focuses on predicting customer churn using the **Telco Customer Chu
 
 ## Table of Contents  
 
+1. [Link to EDA Notebook](.notebook/eda_and_preparation.ipynb)  
+
 1. [Project Overview](#project-overview)  
 2. [Project Objectives](#project-objectives)  
 3. [Methodology](#methodology)  
