@@ -140,6 +140,12 @@ This project explores customer churn prediction through various machine learning
    - Explore more sophisticated methods to better handle imbalanced or non-iid data.  
 5. **Scaling Federated Learning**:  
    - Expand the setup to include additional clients and study its impact on performance and convergence.  
+6. **Incorporating Deep Neural Networks (DNNs)**:  
+   - Train and evaluate Deep Neural Network models to explore their potential for churn prediction in a federated learning setup.  
+   - Use architectures such as fully connected feedforward networks with multiple hidden layers to capture complex relationships in the data.  
+   - Implement techniques like dropout and batch normalization to improve model generalization and convergence in federated settings.  
+   - Leverage frameworks like TensorFlow Federated (TFF) or PyTorch with federated extensions to support the training of deep learning models.  
+   - Evaluate DNN performance on centralized and federated setups to compare results with traditional machine learning models.
 
 ## Repository Structure
 - **data/**: Contains the Telco Customer Churn dataset.
