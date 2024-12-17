@@ -1,8 +1,11 @@
-# Federated Learning for Customer Churn Prediction: A Comparative Analysis with Centralized Models  
+# Capstone Project
+## Federated Learning for Customer Churn Prediction: A Comparative Analysis with Centralized Models  
 
-This project focuses on predicting customer churn using the **Telco Customer Churn** dataset. The aim is to analyze customer behaviors and subscription patterns, predict churn, and compare performance between centralized and federated learning setups. Below is the structured overview of the project's objectives, methodology, and findings.  
+This project focuses on predicting customer churn using the **Telco Customer Churn** dataset. Comprehensive **exploratory data analysis (EDA)** was conducted, leveraging various statistical and visualization techniques. These included histograms to assess feature distributions, heatmaps to understand correlations, boxplots to detect outliers, and pivot tables to summarize churn patterns across categorical variables. Key customer behaviors and subscription patterns were explored to uncover significant trends and drivers of churn.
 
-[EDA Notebook](notebook/eda_and_preparation.ipynb)  
+The project further emphasizes the implementation of **federated learning** as a privacy-preserving alternative to centralized models. Federated learning allows models to be trained across decentralized datasets without transferring sensitive customer information to a central repository. This not only ensures data privacy but also demonstrates comparable performance to traditional centralized approaches. By combining local computation with global model aggregation, federated learning highlights its potential for use cases where data-sharing restrictions or regulations apply, such as telecom, healthcare, and finance.
+
+Key comparisons between centralized and federated setups provide valuable insights into balancing performance and privacy, establishing federated learning as a cutting-edge solution for churn prediction and beyond.
 
 ## Table of Contents  
 1. [Project Overview](#project-overview)  
@@ -37,11 +40,11 @@ This project focuses on predicting customer churn using the **Telco Customer Chu
 11. [Conclusion](#conclusion)  
 
 ## Project Overview  
-This project explores customer churn prediction through **Logistic Regression** and evaluates the benefits of federated learning in preserving data privacy while achieving effective performance. The study also compares results from centralized models with federated learning frameworks to draw meaningful insights.  
+This project explores customer churn prediction through various machine learning models, including **Logistic Regression**, **Random Forest**, **Support Vector Machine (SVM)**, **K-Nearest Neighbors (KNN)**, and **Decision Tree**. These models were evaluated and optimized to achieve the best predictive performance for churn prediction. The project also highlights the benefits of **federated learning**, which preserves data privacy while achieving effective performance.
 
 ## Project Objectives  
 1. Perform exploratory data analysis (EDA) to understand key drivers of churn.  
-2. Build and optimize a baseline **Logistic Regression model** using centralized data.  
+2. Build and optimize the models using centralized data.  
 3. Implement a federated learning framework with two clients and a central server.  
 4. Compare federated learning outcomes with centralized model performance.  
 
